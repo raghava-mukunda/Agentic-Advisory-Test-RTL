@@ -1,0 +1,87 @@
+{
+  "adaptive_agent": {
+    "total_episodes": 300,
+    "total_failures": 179,
+    "failure_rate": 0.5967,
+    "unique_failure_types": 3,
+    "failure_types_found": [
+      "divide_by_zero",
+      "overflow",
+      "underflow"
+    ],
+    "time_to_first_failure": 1,
+    "time_to_each_type": {
+      "divide_by_zero": 1,
+      "overflow": 2,
+      "underflow": 44
+    },
+    "failure_coverage": 1.0,
+    "diversity_score": 1.5809,
+    "avg_failure_depth": 2.37,
+    "functional_coverage_pct": 94.44,
+    "failure_counts": {
+      "divide_by_zero": 57,
+      "overflow": 66,
+      "underflow": 56
+    },
+    "wall_time_sec": 2.62,
+    "agent_name": "adaptive_agent",
+    "agent_summary": {
+      "episode": 300,
+      "total_failures": 179,
+      "failure_counts": {
+        "divide_by_zero": 57,
+        "overflow": 66,
+        "underflow": 56
+      },
+      "failure_types_found": [
+        "divide_by_zero",
+        "overflow",
+        "underflow"
+      ],
+      "diversity_score": 1.5809,
+      "strategy_distribution": {
+        "novelty:divide_by_zero": 1,
+        "novelty:overflow": 1,
+        "mutation:divide_by_zero": 49,
+        "mutation:overflow": 8,
+        "hypothesis:divide_by_zero": 37,
+        "random": 96,
+        "hypothesis:overflow": 5,
+        "mutation:underflow": 98,
+        "boundary": 5
+      }
+    }
+  },
+  "random_baseline": {
+    "total_episodes": 300,
+    "total_failures": 131,
+    "failure_rate": 0.4367,
+    "unique_failure_types": 2,
+    "failure_types_found": [
+      "overflow",
+      "underflow"
+    ],
+    "time_to_first_failure": 5,
+    "time_to_each_type": {
+      "underflow": 5,
+      "overflow": 7
+    },
+    "failure_coverage": 0.6667,
+    "diversity_score": 0.7894,
+    "avg_failure_depth": 2.76,
+    "functional_coverage_pct": 94.44,
+    "failure_counts": {
+      "underflow": 31,
+      "overflow": 100
+    },
+    "wall_time_sec": 2.64,
+    "agent_name": "random_baseline"
+  },
+  "delta": {
+    "ttff": 4,
+    "unique_types": 1,
+    "failure_coverage_gain": 0.3333,
+    "diversity_gain": 0.7915
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "adaptive": {
+    "time_to_first_failure": {
+      "mean": 1.4,
+      "std": 0.49,
+      "n": 5
+    },
+    "unique_failure_types": {
+      "mean": 3.0,
+      "std": 0.0,
+      "n": 5
+    },
+    "failure_coverage": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 5
+    },
+    "diversity_score": {
+      "mean": 1.086,
+      "std": 0.014,
+      "n": 5
+    },
+    "functional_coverage_pct": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "total_failures": {
+      "mean": 168.2,
+      "std": 11.089,
+      "n": 5
+    },
+    "avg_failure_depth": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "failure_rate": {
+      "mean": 0.561,
+      "std": 0.037,
+      "n": 5
+    },
+    "_raw": [
+      {
+        "total_episodes": 300,
+        "total_failures": 162,
+        "failure_rate": 0.54,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "overflow": 1,
+          "divide_by_zero": 2,
+          "underflow": 24
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0985,
+        "failure_counts": {
+          "overflow": 55,
+          "divide_by_zero": 54,
+          "underflow": 53
+        },
+        "agent_type": "adaptive",
+        "seed": 42,
+        "wall_time_sec": 2.71,
+        "agent_summary": {
+          "episode": 300,
+          "total_failures": 162,
+          "failure_counts": {
+            "overflow": 55,
+            "divide_by_zero": 54,
+            "underflow": 53
+          },
+          "failure_types_found": [
+            "overflow",
+            "underflow",
+            "divide_by_zero"
+          ],
+          "diversity_score": 1.5848,
+          "strategy_distribution": {
+            "novelty:overflow": 1,
+            "novelty:divide_by_zero": 1,
+            "random": 89,
+            "hypothesis:divide_by_zero": 35,
+            "hypothesis:overflow": 5,
+            "mutation:divide_by_zero": 40,
+            "mutation:overflow": 4,
+            "mutation:underflow": 110,
+            "boundary": 15
+          }
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 173,
+        "failure_rate": 0.5767,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "overflow": 1,
+          "underflow": 2,
+          "divide_by_zero": 3
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0965,
+        "failure_counts": {
+          "overflow": 63,
+          "underflow": 55,
+          "divide_by_zero": 55
+        },
+        "agent_type": "adaptive",
+        "seed": 123,
+        "wall_time_sec": 2.78,
+        "agent_summary": {
+          "episode": 300,
+          "total_failures": 173,
+          "failure_counts": {
+            "overflow": 63,
+            "underflow": 55,
+            "divide_by_zero": 55
+          },
+          "failure_types_found": [
+            "overflow",
+            "underflow",
+            "divide_by_zero"
+          ],
+          "diversity_score": 1.5819,
+          "strategy_distribution": {
+            "random": 97,
+            "novelty:divide_by_zero": 1,
+            "mutation:overflow": 9,
+            "mutation:divide_by_zero": 46,
+            "hypothesis:divide_by_zero": 35,
+            "mutation:underflow": 87,
+            "boundary": 20,
+            "hypothesis:overflow": 5
+          }
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 171,
+        "failure_rate": 0.57,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 2,
+        "time_to_each_type": {
+          "overflow": 2,
+          "divide_by_zero": 3,
+          "underflow": 113
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0599,
+        "failure_counts": {
+          "overflow": 80,
+          "divide_by_zero": 46,
+          "underflow": 45
+        },
+        "agent_type": "adaptive",
+        "seed": 7,
+        "wall_time_sec": 2.82,
+        "agent_summary": {
+          "episode": 300,
+          "total_failures": 171,
+          "failure_counts": {
+            "overflow": 80,
+            "divide_by_zero": 46,
+            "underflow": 45
+          },
+          "failure_types_found": [
+            "overflow",
+            "underflow",
+            "divide_by_zero"
+          ],
+          "diversity_score": 1.5291,
+          "strategy_distribution": {
+            "novelty:overflow": 2,
+            "novelty:divide_by_zero": 1,
+            "hypothesis:overflow": 11,
+            "mutation:divide_by_zero": 54,
+            "random": 89,
+            "hypothesis:divide_by_zero": 33,
+            "mutation:overflow": 15,
+            "mutation:underflow": 82,
+            "boundary": 13
+          }
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 184,
+        "failure_rate": 0.6133,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "overflow": 1,
+          "divide_by_zero": 2,
+          "underflow": 9
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0883,
+        "failure_counts": {
+          "overflow": 74,
+          "divide_by_zero": 55,
+          "underflow": 55
+        },
+        "agent_type": "adaptive",
+        "seed": 99,
+        "wall_time_sec": 2.75,
+        "agent_summary": {
+          "episode": 300,
+          "total_failures": 184,
+          "failure_counts": {
+            "overflow": 74,
+            "divide_by_zero": 55,
+            "underflow": 55
+          },
+          "failure_types_found": [
+            "overflow",
+            "underflow",
+            "divide_by_zero"
+          ],
+          "diversity_score": 1.57,
+          "strategy_distribution": {
+            "novelty:overflow": 1,
+            "novelty:divide_by_zero": 1,
+            "hypothesis:overflow": 2,
+            "hypothesis:divide_by_zero": 33,
+            "mutation:overflow": 1,
+            "mutation:divide_by_zero": 47,
+            "random": 94,
+            "mutation:underflow": 103,
+            "boundary": 18
+          }
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 151,
+        "failure_rate": 0.5033,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 2,
+        "time_to_each_type": {
+          "overflow": 2,
+          "divide_by_zero": 3,
+          "underflow": 69
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0877,
+        "failure_counts": {
+          "overflow": 61,
+          "divide_by_zero": 45,
+          "underflow": 45
+        },
+        "agent_type": "adaptive",
+        "seed": 2024,
+        "wall_time_sec": 2.79,
+        "agent_summary": {
+          "episode": 300,
+          "total_failures": 151,
+          "failure_counts": {
+            "overflow": 61,
+            "divide_by_zero": 45,
+            "underflow": 45
+          },
+          "failure_types_found": [
+            "overflow",
+            "underflow",
+            "divide_by_zero"
+          ],
+          "diversity_score": 1.5693,
+          "strategy_distribution": {
+            "novelty:overflow": 2,
+            "novelty:divide_by_zero": 1,
+            "hypothesis:overflow": 13,
+            "mutation:overflow": 10,
+            "mutation:divide_by_zero": 45,
+            "hypothesis:divide_by_zero": 34,
+            "random": 94,
+            "mutation:underflow": 86,
+            "boundary": 15
+          }
+        }
+      }
+    ]
+  },
+  "biased": {
+    "time_to_first_failure": {
+      "mean": 4.0,
+      "std": 1.789,
+      "n": 5
+    },
+    "unique_failure_types": {
+      "mean": 3.0,
+      "std": 0.0,
+      "n": 5
+    },
+    "failure_coverage": {
+      "mean": 1.0,
+      "std": 0.0,
+      "n": 5
+    },
+    "diversity_score": {
+      "mean": 0.985,
+      "std": 0.031,
+      "n": 5
+    },
+    "functional_coverage_pct": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "total_failures": {
+      "mean": 105.0,
+      "std": 6.164,
+      "n": 5
+    },
+    "avg_failure_depth": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "failure_rate": {
+      "mean": 0.35,
+      "std": 0.021,
+      "n": 5
+    },
+    "_raw": [
+      {
+        "total_episodes": 300,
+        "total_failures": 101,
+        "failure_rate": 0.3367,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 3,
+        "time_to_each_type": {
+          "divide_by_zero": 3,
+          "underflow": 6,
+          "overflow": 9
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 0.961,
+        "failure_counts": {
+          "divide_by_zero": 47,
+          "underflow": 11,
+          "overflow": 43
+        },
+        "agent_type": "biased",
+        "seed": 42,
+        "wall_time_sec": 2.74,
+        "agent_summary": {
+          "strategy": "biased"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 97,
+        "failure_rate": 0.3233,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 3,
+        "time_to_each_type": {
+          "divide_by_zero": 3,
+          "overflow": 13,
+          "underflow": 40
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0265,
+        "failure_counts": {
+          "divide_by_zero": 46,
+          "overflow": 34,
+          "underflow": 17
+        },
+        "agent_type": "biased",
+        "seed": 123,
+        "wall_time_sec": 2.73,
+        "agent_summary": {
+          "strategy": "biased"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 115,
+        "failure_rate": 0.3833,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 7,
+        "time_to_each_type": {
+          "divide_by_zero": 7,
+          "overflow": 15,
+          "underflow": 19
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 0.9482,
+        "failure_counts": {
+          "divide_by_zero": 58,
+          "overflow": 45,
+          "underflow": 12
+        },
+        "agent_type": "biased",
+        "seed": 7,
+        "wall_time_sec": 2.82,
+        "agent_summary": {
+          "strategy": "biased"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 104,
+        "failure_rate": 0.3467,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 5,
+        "time_to_each_type": {
+          "divide_by_zero": 5,
+          "overflow": 13,
+          "underflow": 17
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 1.0157,
+        "failure_counts": {
+          "divide_by_zero": 52,
+          "overflow": 34,
+          "underflow": 18
+        },
+        "agent_type": "biased",
+        "seed": 99,
+        "wall_time_sec": 2.81,
+        "agent_summary": {
+          "strategy": "biased"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 108,
+        "failure_rate": 0.36,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 2,
+        "time_to_each_type": {
+          "underflow": 2,
+          "overflow": 7,
+          "divide_by_zero": 17
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 0.9734,
+        "failure_counts": {
+          "underflow": 13,
+          "overflow": 43,
+          "divide_by_zero": 52
+        },
+        "agent_type": "biased",
+        "seed": 2024,
+        "wall_time_sec": 2.82,
+        "agent_summary": {
+          "strategy": "biased"
+        }
+      }
+    ]
+  },
+  "random": {
+    "time_to_first_failure": {
+      "mean": 2.4,
+      "std": 2.332,
+      "n": 5
+    },
+    "unique_failure_types": {
+      "mean": 2.2,
+      "std": 0.4,
+      "n": 5
+    },
+    "failure_coverage": {
+      "mean": 0.733,
+      "std": 0.133,
+      "n": 5
+    },
+    "diversity_score": {
+      "mean": 0.593,
+      "std": 0.045,
+      "n": 5
+    },
+    "functional_coverage_pct": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "total_failures": {
+      "mean": 136.0,
+      "std": 5.477,
+      "n": 5
+    },
+    "avg_failure_depth": {
+      "mean": null,
+      "std": null,
+      "n": 0
+    },
+    "failure_rate": {
+      "mean": 0.453,
+      "std": 0.018,
+      "n": 5
+    },
+    "_raw": [
+      {
+        "total_episodes": 300,
+        "total_failures": 138,
+        "failure_rate": 0.46,
+        "unique_failure_types": 3,
+        "failure_types_found": [
+          "overflow",
+          "underflow",
+          "divide_by_zero"
+        ],
+        "time_to_first_failure": 2,
+        "time_to_each_type": {
+          "overflow": 2,
+          "underflow": 8,
+          "divide_by_zero": 123
+        },
+        "failure_coverage": 1.0,
+        "diversity_score": 0.6606,
+        "failure_counts": {
+          "overflow": 94,
+          "underflow": 43,
+          "divide_by_zero": 1
+        },
+        "agent_type": "random",
+        "seed": 42,
+        "wall_time_sec": 2.67,
+        "agent_summary": {
+          "strategy": "random"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 141,
+        "failure_rate": 0.47,
+        "unique_failure_types": 2,
+        "failure_types_found": [
+          "overflow",
+          "underflow"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "underflow": 1,
+          "overflow": 4
+        },
+        "failure_coverage": 0.6667,
+        "diversity_score": 0.5681,
+        "failure_counts": {
+          "underflow": 36,
+          "overflow": 105
+        },
+        "agent_type": "random",
+        "seed": 123,
+        "wall_time_sec": 2.71,
+        "agent_summary": {
+          "strategy": "random"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 129,
+        "failure_rate": 0.43,
+        "unique_failure_types": 2,
+        "failure_types_found": [
+          "overflow",
+          "underflow"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "overflow": 1,
+          "underflow": 2
+        },
+        "failure_coverage": 0.6667,
+        "diversity_score": 0.6062,
+        "failure_counts": {
+          "overflow": 91,
+          "underflow": 38
+        },
+        "agent_type": "random",
+        "seed": 7,
+        "wall_time_sec": 2.78,
+        "agent_summary": {
+          "strategy": "random"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 142,
+        "failure_rate": 0.4733,
+        "unique_failure_types": 2,
+        "failure_types_found": [
+          "overflow",
+          "underflow"
+        ],
+        "time_to_first_failure": 7,
+        "time_to_each_type": {
+          "overflow": 7,
+          "underflow": 18
+        },
+        "failure_coverage": 0.6667,
+        "diversity_score": 0.5248,
+        "failure_counts": {
+          "overflow": 111,
+          "underflow": 31
+        },
+        "agent_type": "random",
+        "seed": 99,
+        "wall_time_sec": 2.75,
+        "agent_summary": {
+          "strategy": "random"
+        }
+      },
+      {
+        "total_episodes": 300,
+        "total_failures": 130,
+        "failure_rate": 0.4333,
+        "unique_failure_types": 2,
+        "failure_types_found": [
+          "overflow",
+          "underflow"
+        ],
+        "time_to_first_failure": 1,
+        "time_to_each_type": {
+          "overflow": 1,
+          "underflow": 3
+        },
+        "failure_coverage": 0.6667,
+        "diversity_score": 0.6042,
+        "failure_counts": {
+          "overflow": 92,
+          "underflow": 38
+        },
+        "agent_type": "random",
+        "seed": 2024,
+        "wall_time_sec": 2.87,
+        "agent_summary": {
+          "strategy": "random"
+        }
+      }
+    ]
+  }
+}

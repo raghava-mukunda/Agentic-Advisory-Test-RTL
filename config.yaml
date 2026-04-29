@@ -1,0 +1,32 @@
+# experiments/config.yaml
+
+design: "designs/alu_fsm.v"
+tb:     "designs/tb.cpp"
+
+# Single-run seed (--compare mode)
+seed: 42
+
+# Multi-seed evaluation (--multiseed mode)
+# These 5 seeds are what go in the paper
+seeds: [42, 123, 7, 99, 2024]
+
+episodes: 300
+
+# Adaptive agent parameters
+epsilon:       0.15    # probability of pure random exploration
+mutation_delta: 8      # neighbourhood mutation range ±delta
+novelty_budget: 50     # episodes to spend targeting each undiscovered failure type
+
+# Tell the agent which failure types exist in this design
+known_failure_types:
+  - divide_by_zero
+  - overflow
+  - underflow
+
+verilator:
+  obj_dir:     "./obj_dir"
+  binary_name: "Valu_fsm"
+  timeout_sec: 5.0
+  num_cycles:  8
+
+output_dir: "./results"
